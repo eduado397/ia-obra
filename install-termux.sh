@@ -23,7 +23,7 @@ mkdir -p data
 echo "📝 Criando .env automático..."
 cat <<EOF > .env
 BOT_SESSION=bot-termux
-GROQ_API_KEY=SUA_CHAVE_AQUI
+GROQ_API_KEY=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
 OWNER_NUMBER=55NUMERO_DO_CLIENTE_AQUI
 DAILY_SUMMARY_HOUR=18
 EOF
