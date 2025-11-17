@@ -1,0 +1,74 @@
+# Guia de Instalação do Bot de Obra (Android / Termux)
+
+## 📌 Passo 1 — Instalar o Termux
+
+Baixe e instale o Termux pelo link seguro abaixo:
+[https://f-droid.org/en/packages/com.termux/](https://f-droid.org/en/packages/com.termux/)
+
+---
+
+## 📌 Passo 2 — Instalar o Bot
+
+Abra o Termux e cole o comando abaixo **exatamente como está**, depois aperte **Enter**:
+
+```
+bash <(curl -s LINK_RAW_AQUI)
+```
+
+(Substitua LINK_RAW_AQUI pelo link fornecido pelo suporte.)
+
+O Termux irá:
+
+* atualizar os pacotes
+* instalar Node.js e Git
+* baixar o bot
+* configurar automaticamente
+* iniciar o bot
+* exibir o QR Code na tela
+
+---
+
+## 📌 Passo 3 — Conectar ao WhatsApp
+
+1. Abra o WhatsApp no seu celular
+2. Vá em **Configurações**
+3. Toque em **Aparelhos conectados**
+4. Selecione **Conectar um aparelho**
+5. Escaneie o QR Code que apareceu no Termux
+
+Pronto! O bot está ativo.
+
+---
+
+## 📌 Comandos para testar
+
+Envie uma mensagem para o seu próprio WhatsApp após conectar:
+
+* `menu` — mostra os comandos disponíveis
+* `resumo materiais` — lista o estoque
+* `gasto 100 cimento` — registra gasto
+* `exportar relatorios` — envia um arquivo XLSX
+
+---
+
+## 📌 Caso dê erro
+
+Envie ao suporte:
+
+* uma foto da tela do Termux
+* informe o que apareceu antes do erro
+
+O suporte irá te ajudar rapidamente.
+
+---
+
+## ✔ Observações importantes
+
+* Não feche o Termux durante a instalação.
+* Após conectar, o bot continua funcionando.
+* Fechar o Termux desativa o bot temporariamente.
+* Para desativar permanentemente, desconecte o aparelho pelo WhatsApp.
+
+---
+
+**Pronto! Seu bot está instalado e funcionando.**
