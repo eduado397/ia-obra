@@ -22,9 +22,9 @@ mkdir -p data
 
 echo "📝 Criando .env exclusivo..."
 cat <<EOF > .env
-BOT_SESSION=cliente-CLAUDIO
+BOT_SESSION=cliente-
 GROQ_API_KEY=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
-OWNER_NUMBER=5511978722360
+OWNER_NUMBER=
 DAILY_SUMMARY_HOUR=18
 EOF
 
