@@ -23,7 +23,7 @@ mkdir -p data
 echo "📝 Criando .env para cliente_04..."
 cat <<EOF > .env
 BOT_SESSION=cliente_
-GROQ_API_KEY=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
+GROQ_API_KEY=
 OWNER_NUMBER=
 DAILY_SUMMARY_HOUR=18
 EOF
