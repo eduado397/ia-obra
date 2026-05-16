@@ -1,26 +1,26 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "🔧 Instalando BOT DE OBRA..."
+echo " Instalando BOT DE OBRA..."
 sleep 1
 
 termux-wake-lock
 
-echo "📦 Atualizando pacotes..."
+echo " Atualizando pacotes..."
 pkg update -y && pkg upgrade -y
 
-echo "📦 Instalando Node, Git e dependências..."
+echo " Instalando Node, Git e dependências..."
 pkg install -y nodejs git wget
 
-echo "📁 Baixando código do bot..."
+echo " Baixando código do bot..."
 rm -rf ia-obra
 git clone https://github.com/eduado397/ia-obra.git
 cd ia-obra
 
-echo "📁 Criando pastas internas..."
+echo " Criando pastas internas..."
 mkdir -p tokens
 mkdir -p data
 
-echo "📝 Criando .env exclusivo..."
+echo " Criando .env exclusivo..."
 cat <<EOF > .env
 BOT_SESSION=cliente-
 GROQ_API_KEY=
@@ -28,8 +28,8 @@ OWNER_NUMBER=
 DAILY_SUMMARY_HOUR=18
 EOF
 
-echo "📦 Instalando dependências..."
+echo " Instalando dependências..."
 npm install
 
-echo "🚀 Iniciando o bot..."
+echo " Iniciando o bot..."
 node index.cjs
